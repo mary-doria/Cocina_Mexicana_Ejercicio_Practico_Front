@@ -1,0 +1,21 @@
+/* Estilos para el footer */
+footer {
+    background-color: #333; /* Cambia el color de fondo según tu preferencia */
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+    padding: 10px; /* Espacio interno para el contenido */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para el enlace de correo electrónico */
+footer a {
+    color: #fff; /* Cambia el color del enlace según tu preferencia */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilos para el enlace de correo electrónico al pasar el ratón */
+footer a:hover {
+    text-decoration: underline; /* Agrega un subrayado al pasar el ratón sobre el enlace */
+}
+.cursiva {
+    font-style: italic;
+}
