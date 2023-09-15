@@ -1,35 +1,110 @@
-/* Estilos para el footer */
+header {
+    text-align: center;
+    padding: 20px; 
+}
+
+header h1 {
+    font-weight: bold; 
+    text-align: center;
+    margin: 10px auto; 
+    background-color: red; 
+    width: 50%;
+}
+
+header img {
+    display: block; 
+    margin: 0 auto;
+}
+
 footer {
-    background-color: #333; /* Cambia el color de fondo según tu preferencia */
-    color: #fff; /* Cambia el color del texto según tu preferencia */
-    padding: 10px; /* Espacio interno para el contenido */
-    text-align: center; /* Alinea el texto al centro */
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center; 
 }
 
-/* Estilos para el enlace de correo electrónico */
 footer a {
-    color: #fff; /* Cambia el color del enlace según tu preferencia */
-    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #fff; 
+    text-decoration: none; 
 }
 
-/* Estilos para el enlace de correo electrónico al pasar el ratón */
 footer a:hover {
-    text-decoration: underline; /* Agrega un subrayado al pasar el ratón sobre el enlace */
+    text-decoration: underline; 
 }
+
 .cursiva {
     font-style: italic;
+}
+
+
+nav {
+    text-align: center;
+    margin: 0 auto; 
+    background-color: green; 
+    width: 50%;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    display: flex; /* Hace que los elementos de la lista sean flexibles */
+    display: flex;
+    justify-content: center; 
 }
 
 nav li {
-    margin-right: 20px; /* Espacio entre elementos de la lista */
+    margin-right: 4px; 
+    display: block;
+    margin: 0 auto;
 }
 
 nav a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+main h2 {
+    background-color: #CD202D; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    background-color: #127A35;
+}
+
+main {
+    background-color: #fff; 
+    color: #000; 
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+section h3 {
+    display: inline-block; 
+    background-color: forestgreen;
+    color: white; 
+    padding: 10px; 
 }
