@@ -19,3 +19,17 @@ footer a:hover {
 .cursiva {
     font-style: italic;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista sean flexibles */
+}
+
+nav li {
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+nav a {
+    text-decoration: none;
+}
