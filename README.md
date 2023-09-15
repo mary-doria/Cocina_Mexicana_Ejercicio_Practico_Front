@@ -1,1 +1,0 @@
-# Cocina_Mexicana_Ejercicio_Practico_Front
